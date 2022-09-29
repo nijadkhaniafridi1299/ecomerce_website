@@ -29,7 +29,7 @@
                         <a class="nav-link" href="{{route('add.create')}}">Add</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{route('search.search')}}">Search</a>
+                        <a class="nav-link" href="{{route('search.search')}}">Searching</a>
                     </li>
                     @if(Session::get('user'))
                         <a class="nav-link" href="#">Welcome{{Session::get('user')}}</a>
